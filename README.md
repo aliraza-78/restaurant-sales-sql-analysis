@@ -57,3 +57,10 @@ restaurant-sales-sql-analysis/
 ├── analysis.sql
 ├── Restaurant_Sales_Report.pdf
 └── dataset/
+
+## How to Run This Project
+
+1. Import the CSV files from the `dataset/` folder into MySQL.
+2. Create tables matching the dataset schema.
+3. Execute queries from `analysis.sql`.
+4. Review results and insights in `Restaurant_Sales_SQL_Report.pdf`.
