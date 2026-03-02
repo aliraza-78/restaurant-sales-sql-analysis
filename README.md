@@ -1,55 +1,57 @@
-🍕 Restaurant Sales & Demand Analysis Using Advanced SQL
-📌 Project Overview
+# Restaurant Sales & Demand Analysis Using Advanced SQL
 
-This project analyzes 21,350 restaurant transactions totaling 817,860.05 in revenue using MySQL.
+## Project Overview
 
-The objective was to identify revenue drivers, seasonal patterns, product performance trends, and operational optimization opportunities using advanced SQL techniques.
+This project analyzes **21,350 restaurant transactions** totaling **817,860.05 in revenue** using MySQL.
 
-🛠 Tools & Techniques
+The objective was to identify revenue drivers, seasonal demand patterns, product performance trends, and operational optimization opportunities through structured SQL analysis.
 
-MySQL
+---
 
-INNER JOIN
+## Tools & Techniques
 
-GROUP BY & Aggregations
+- MySQL  
+- INNER JOIN  
+- GROUP BY & Aggregations  
+- CTE (WITH clause)  
+- Window Functions (LAG, RANK, NTILE)  
+- Revenue Growth Analysis  
+- Pareto Analysis  
 
-CTE (WITH clause)
+---
 
-Window Functions (LAG, RANK, NTILE)
+## Key Metrics
 
-Revenue Growth Analysis
+- **Total Revenue:** 817,860.05  
+- **Total Orders:** 21,350  
+- **Average Order Value:** 38.31  
+- **Average Pizzas per Order:** 2.32  
 
-Pareto Analysis
+---
 
-📊 Key Insights
+## Key Insights
 
-Total Revenue: 817,860.05
+- Large pizzas generate **45.89% of total revenue**, making size the primary revenue driver.  
+- Peak demand occurs between **12–1 PM** and **5–7 PM**.  
+- Top 20% of pizzas contribute approximately **33% of total revenue**.  
+- Revenue distribution across categories is balanced (23–27%).  
+- Chicken-based pizzas consistently rank as monthly top performers.  
 
-Average Order Value: 38.31
+---
 
-Large pizzas generate 45.89% of total revenue
+## Strategic Recommendations
 
-Peak demand hours: 12–1 PM and 5–7 PM
+1. Optimize staffing during peak lunch and dinner hours.  
+2. Evaluate pricing adjustments for Large pizzas due to revenue dominance.  
+3. Launch targeted promotions during September–October slowdowns.  
+4. Prioritize high-performing chicken variants in marketing campaigns.  
+5. Reassess operational necessity of XL and XXL sizes.  
 
-Top 20% of pizzas contribute ~33% of total revenue
+---
 
-Revenue distribution across categories is balanced (23–27%)
+## Repository Structure
 
-Chicken-based pizzas consistently dominate monthly rankings
 
-📈 Strategic Recommendations
-
-Optimize staffing during peak lunch and dinner hours
-
-Evaluate pricing strategy for Large pizzas due to revenue dominance
-
-Launch targeted promotions during September–October slowdown
-
-Prioritize chicken variants in marketing campaigns
-
-Reassess operational necessity of XL and XXL sizes
-
-📂 Repository Structure
 restaurant-sales-sql-analysis/
 │
 ├── analysis.sql
